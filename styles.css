@@ -61,7 +61,7 @@ a:hover {
   color: #0c2d57;
   transform: translateX(-70%);
   opacity: 0;
-  animation: slide-in 1.5s ease-out forwards;
+  animation: slide-in 2s ease-out forwards;
 }
 .img-hero img {
   width: 1200px;
@@ -72,6 +72,9 @@ a:hover {
 @keyframes slide-in {
   20% {
     opacity: 0;
+  }
+  75% {
+    transform: translateX(-12%);
   }
   100% {
     opacity: 1;
