@@ -69,7 +69,7 @@ a:hover {
   top: 250px;
   left: 300px;
 }
-@keyframes slide-in {
+@-webkit-keyframes slide-in {
   20% {
     opacity: 0;
   }
