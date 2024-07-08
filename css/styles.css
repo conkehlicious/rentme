@@ -59,7 +59,9 @@ a:hover {
   transform: scale(1, 2);
   margin-top: 100px;
   color: #0c2d57;
-  animation: slide-in 1.5s ease-out forwards;
+  transform: translateX(-70%);
+  opacity: 0;
+  -webkit-animation: slide-in 2s ease-out forwards;
 }
 .img-hero img {
   width: 1200px;
@@ -67,6 +69,18 @@ a:hover {
   top: 250px;
   left: 300px;
 }
-@keyframes slide-in {
-  /* container hero end */
+@-webkit-@keyframes slide-in {
+  20% {
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-45%);
+  }
+  75% {
+    transform: translateX(-52%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }
