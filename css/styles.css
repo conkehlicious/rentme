@@ -73,12 +73,7 @@ a:hover {
   20% {
     opacity: 0;
   }
-  60% {
-    transform: translateX(-45%);
-  }
-  75% {
-    transform: translateX(-52%);
-  }
+
   100% {
     opacity: 1;
     transform: translateX(0%);
