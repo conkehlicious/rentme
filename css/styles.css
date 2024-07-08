@@ -90,9 +90,8 @@ a:hover {
 }
 .container-explore {
   margin-top: 50px;
-  display: inline-block;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/vegas-sign.jpg);
+    url(../images/vegas.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
