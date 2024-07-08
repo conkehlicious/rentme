@@ -91,7 +91,7 @@ a:hover {
 .container-explore {
   margin-top: 50px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/vegas-sign.jpg);
+    url(../images/vegas-sign.jpg);
   background-size: cover;
   background-position: center;
   height: 700px;
